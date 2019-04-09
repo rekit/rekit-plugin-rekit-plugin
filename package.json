@@ -1,0 +1,23 @@
+{
+  "name": "rekit-plugin-rekit-plugin",
+  "version": "1.0.0",
+  "private": false,
+  "rekitPlugin": {
+    "dependencies": ["rekit-react-core", "rekit-react-ui"],
+    "inherit": ["rekit-react-core", "rekit-react-ui"],
+    "appType": "rekit-plugin",
+    "isAppPlugin": true
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "test": "node scripts/test.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "rekit-studio-sdk": "^3.0.0-beta.5"
+  }
+}
